@@ -4,14 +4,14 @@ This is the API for the COVID-19 modelling web app from [here](https://github.co
 The API was developed using Flask and Flask-RESTful.
 
 ## How to run the API
-The API is currently deployed to `http://covidmodelling/api` but you can run a local version for testing.
+The API is currently deployed to `http://api.covidmodelling.com/` but you can run a local version for testing.
 1. In another terminal, navigate to the `service.model` directory.
 2. (Requires pipenv) Run `pipenv install` to install all dependencies. Alternatively, use pip to install from requirements.txt file using `pip install -r requirements.txt`
 3. Run `pipenv run python index.py` to start the api (or whatever virtualenv manager you're using).
 
 
 # API usage
-The API is currently deployed using [Now](http://now.sh) with the URL `http://covidmodelling.com/api`.
+The API is currently deployed using [Now](http://now.sh) with the URL `http://api.covidmodelling.com/`.
 
 The API has three endpoints, `/model`, `/info`, `/case`.
 ### Model Endpoint
