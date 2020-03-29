@@ -1,17 +1,18 @@
 import os
 import collections
-import numpy as np
 import json
-from flask import Flask, request
-from flask_restful import Resource, Api
-from model.model import CovidModel
-from flask_cors import CORS
-from data.cases import Crawler
-import json
-from data.hospital import Hospital
 import time
 import logging
 import sys
+
+import numpy as np
+from flask import Flask, request
+from flask_restful import Resource, Api
+from flask_cors import CORS
+
+from model.model import CovidModel
+from data.cases import Crawler
+from data.hospital import Hospital
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -164,4 +165,5 @@ api.add_resource(StateCases, '/api/case')
 
 if __name__ == '__main__':
     app.config.from_object('config.default')
-    app.run(host='0.0.0.0', port=app.config['PORT'])
+    app.run()
+    # app.run(host='0.0.0.0', port=app.config['PORT'])
