@@ -92,7 +92,7 @@ class CovidModel(object):
 					deaths += (vents_req - results['icubed_normal']) * resource_params['mort_ventblocked']
 					overload_deaths += (vents_req - results['icubed_normal']) * resource_params['mort_ventblocked']
 		deaths += case_fatality_rate * infected
-		return deaths, overload_deaths
+		return max(deaths, 0), max(overload_deaths, 0)
 
 	def infection_simulation(self, state_info, state_cases, results, data, R0, model_params, resource_params, dates):
 		# Note newly infected is epochs + 3 len (account for earlier cases)
