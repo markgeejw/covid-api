@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "covidmodelling",
+    "name": "covidmodelling-api",
     "builds": [{
         "src": "*py",
         "use": "@liudonghua123/now-flask",
