@@ -7,15 +7,10 @@ name: update cases data
 
 
 #for testing purposes
-
-parameters:
-    # push to specific branch
-    branch: &branch action_update
-
 on:
   push:
     branches:
-    - *branch
+    - &branch action_update
 
 jobs:
   deploy:
