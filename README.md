@@ -151,7 +151,7 @@ Additionally [usage_example.html](https://github.com/markgeejw/covid-api/blob/ma
 ```
 .then(data => {
   var country = "Singapore";
-  var state_province = null; // certain countries don't have province/state
+  var state_province = null;
 
   for (i = 0; i < data.length; ++i) {
     if (data[i]["Country/Region"] === country && data[i]["Province/State"] === state_province){
