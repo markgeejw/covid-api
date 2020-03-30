@@ -37,7 +37,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git diff-index --quiet HEAD || git commit -m "Update cases json final test" -a
+        git diff-index --quiet HEAD || git commit -m "Update cases json" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
