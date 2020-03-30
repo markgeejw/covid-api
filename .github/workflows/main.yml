@@ -1,30 +1,36 @@
 name: update cases data
-# on:
-#   schedule:
-#     - cron: "15 0,2,12 * * *"
 on:
-  push:
-    branches:
-    - action_update
+  schedule:
+    # run a scheduled job on 15 past 0,2,12 hours eg. 02:15:00
+    # check cron syntax here https://crontab.guru/
+    - cron: "15 0,2,12 * * *"
+
+#for testing purposes
+# on:
+#   push:
+#     branches:
+#     - action_update
 
 jobs:
-  linux:
+  deploy:
     name: Linux build
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.7]
+    if: github.ref == 'refs/heads/master'
     steps:
-    - name: setup python environment
+    - name: Setup python environment
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
+    # looks for a script in project directory
     - name: Checkout
       uses: actions/checkout@v2
     - name: Add permissions to script
       run: |
-          chmod +x ./bash.sh
-    - name: execute bash script in repo
+          chmod +x ./actions.sh
+    - name: Execute bash script in repo
       run: ./actions.sh
     - name: Commit files
       run: |
@@ -36,4 +42,6 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
+        # put back to certain branch
+        branch: master
         directory: '.'
