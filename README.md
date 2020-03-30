@@ -5,7 +5,7 @@ The API was developed using Flask and Flask-RESTful.
 
 ## How to run the API
 The API is currently deployed to `http://api.covidmodelling.com/` but you can run a local version for testing.
-1. In another terminal, navigate to the `service.model` directory.
+1. In another terminal, navigate to the `covid-app` directory.
 2. (Requires pipenv) Run `pipenv install` to install all dependencies. Alternatively, use pip to install from requirements.txt file using `pip install -r requirements.txt`
 3. Run `pipenv run python index.py` to start the api (or whatever virtualenv manager you're using).
 
