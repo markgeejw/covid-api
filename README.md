@@ -5,7 +5,7 @@ The API was developed using Flask and Flask-RESTful.
 
 ## How to run the API
 The API is currently deployed to `http://api.covidmodelling.com/` but you can run a local version for testing.
-1. In another terminal, navigate to the `service.model` directory.
+1. In another terminal, navigate to the `covid-api` directory.
 2. (Requires pipenv) Run `pipenv install` to install all dependencies. Alternatively, use pip to install from requirements.txt file using `pip install -r requirements.txt`
 3. Run `pipenv run python index.py` to start the api (or whatever virtualenv manager you're using).
 
@@ -118,3 +118,45 @@ At the `case` endpoint, the API returns information regarding the number of COVI
 \** Optional. Defaults to 1 for daily cases.
 
 The endpoint returns a single array stored in the key `cases`. The array contains the total cumulative number of cases at `start_date` at the first index. The subsequent indices contain the number of cases reported according to `interval`.
+
+### State Cases Json File
+
+This converts [CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19) time series into a json file. Available here: [cases.json](https://raw.githubusercontent.com/markgeejw/covid-api/master/data/cases.json)
+This data is updated three times a day using GitHub Actions.
+
+The json file includes the COVID-19 confirmed_global cases, deaths_global for all available countries and province/states:
+
+```
+[
+  {
+      "Province/State": "Victoria",
+      "Country/Region": "Australia",
+      "date": "2020-01-22",
+      "confirmed_global": 0,
+      "deaths_global": 0
+  },
+  {
+      "Province/State": null,
+      "Country/Region": "Singapore",
+      "date": "2020-01-22",
+      "confirmed_global": 0,
+      "deaths_global": 0
+  }, ...
+  ...
+]
+```
+Query example using javascript
+Additionally [usage_example.html](https://github.com/markgeejw/covid-api/blob/master/usage_example.html) as been provided for completeness.
+
+```
+.then(data => {
+  var country = "Singapore";
+  var state_province = null; // certain countries don't have province/state
+
+  for (i = 0; i < data.length; ++i) {
+    if (data[i]["Country/Region"] === country && data[i]["Province/State"] === state_province){
+      console.log(data[i]["date"], ' confirmed cases: ', data[i]["confirmed_global"])
+    }
+  }
+})
+```

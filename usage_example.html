@@ -8,12 +8,12 @@
   .then(response => response.json())
   .then(data => {
     var country = "Singapore";
-    var state_province = null; // certain countries don't have province / state
+    var state_province = null; // certain countries don't have province/state
 
     for (i = 0; i < data.length; ++i) {
-        if (data[i]["Country/Region"] === country && data[i]["Province/State"] === state_province){
-          console.log(data[i]["date"], ' confirmed cases: ', data[i]["confirmed_global"])
-        }
+      if (data[i]["Country/Region"] === country && data[i]["Province/State"] === state_province){
+        console.log(data[i]["date"], ' confirmed cases: ', data[i]["confirmed_global"])
+      }
     }
   })
   .catch(error => console.error(error))
