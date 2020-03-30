@@ -10,7 +10,7 @@ name: update cases data
 on:
   push:
     branches:
-    - &branch action_update
+    - action_update
 
 jobs:
   deploy:
@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.7]
-    # if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/master'
     steps:
     - name: Setup python environment
       uses: actions/setup-python@v1
@@ -44,5 +44,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         # put back to certain branch
-        branch: *branch
+        branch: master
         directory: '.'
