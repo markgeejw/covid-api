@@ -1,40 +1,47 @@
 name: update cases data
 # on:
 #   schedule:
+#     # run a scheduled job on 15 past 0,2,12 hours
+#     # check cron syntax here https://crontab.guru/
 #     - cron: "15 0,2,12 * * *"
+
+# for testing purposes
 on:
   push:
     branches:
     - action_update
 
 jobs:
-  linux:
-    name: Linux build
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.7]
-    steps:
-    - name: setup python environment
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.7
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: Add permissions to script
-      run: |
-          chmod +x ./actions.sh
-    - name: execute bash script in repo
-      run: ./actions.sh
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git diff-index --quiet HEAD || git commit -m "Update cases json final test" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: action_update
-        directory: '.'
+  if: contains(github.ref, "master")
+    linux:
+      name: Linux build
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          python-version: [3.7]
+      steps:
+      - name: Setup python environment
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      # looks for a script in project directory
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Add permissions to script
+        run: |
+            chmod +x ./actions.sh
+      - name: Execute bash script in repo
+        run: ./actions.sh
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Update cases json final test" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # put back to certain branch
+          branch: action_update
+          directory: '.'
