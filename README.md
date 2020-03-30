@@ -133,14 +133,16 @@ The json file includes the COVID-19 confirmed_global cases, deaths_global for al
       "Country/Region": "Australia",
       "date": "2020-01-22",
       "confirmed_global": 0,
-      "deaths_global": 0
+      "deaths_global": 0,
+      "recovered_global": 0
   },
   {
       "Province/State": null,
       "Country/Region": "Singapore",
       "date": "2020-01-22",
       "confirmed_global": 0,
-      "deaths_global": 0
+      "deaths_global": 0,
+      "recovered_global": 0
   }, ...
   ...
 ]
