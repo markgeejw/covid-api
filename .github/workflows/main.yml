@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.7]
-    if: contains(github.ref, "master")
+    if: github.ref == 'refs/heads/master'
     steps:
     - name: Setup python environment
       uses: actions/setup-python@v1
