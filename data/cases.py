@@ -175,6 +175,7 @@ class Crawler():
           df=pd.read_csv(download_url)
 
           df = self.pivot_data(df, file)
+          df['date'] = pd.to_datetime(df['date'])
 
           # filter for province
           if type(output_nostate) == type(None):
@@ -243,6 +244,7 @@ if __name__ == '__main__':
   regions_df = crawler.query_regions()
 
   entire_dataset = crawler.query_entire()
+  entire_dataset['date'] = entire_dataset['date'].astype(str)
 
   print('\n---- saving entire data to json ----')
   output = entire_dataset.to_dict(orient='records')
