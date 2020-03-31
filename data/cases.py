@@ -21,7 +21,7 @@ class Crawler():
   def __init__(self):
     self.url = 'https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series'
     self.raw_url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/'
-    self.files = ['confirmed_global', 'deaths_global'] #, 'recovered_global']
+    self.files = ['confirmed_global', 'deaths_global', 'recovered_global']
     self.country_col = 'Country/Region'
     self.state_col = 'Province/State'
     self.cases_col = 'confirmed_global'
@@ -31,7 +31,6 @@ class Crawler():
     Params
     --------
     url:string
-
     Output
     --------
     string
@@ -135,10 +134,12 @@ class Crawler():
     soup = self.scrapePage(self.url)
     file_list = self.query_files(soup)
 
-    for fname in file_list:
-      download_url= self.raw_url + fname
-      df=pd.read_csv(download_url)
-      break
+    for file in self.files:
+      for fname in file_list:
+        if file in fname:
+          download_url= self.raw_url + fname
+          df=pd.read_csv(download_url)
+          break
 
     return df[[self.state_col, self.country_col]]
 
@@ -175,6 +176,7 @@ class Crawler():
           df=pd.read_csv(download_url)
 
           df = self.pivot_data(df, file)
+          df['date'] = pd.to_datetime(df['date'])
 
           # filter for province
           if type(output_nostate) == type(None):
@@ -232,7 +234,7 @@ if __name__ == '__main__':
   df = crawler.query_single(country=country, state=state)
   filtered_df = crawler.periodic_dataset(df,start_date, interval=1)
   print('---- single data ----')
-  print(filtered_df)
+  print(len(filtered_df))
 
   end = time.time()
   print('query online dataset end time:{:.2f}'.format(end-start))
@@ -243,6 +245,7 @@ if __name__ == '__main__':
   regions_df = crawler.query_regions()
 
   entire_dataset = crawler.query_entire()
+  entire_dataset['date'] = entire_dataset['date'].astype(str)
 
   print('\n---- saving entire data to json ----')
   output = entire_dataset.to_dict(orient='records')
@@ -258,7 +261,7 @@ if __name__ == '__main__':
   df = crawler.import_json('cases.json', import_type='dataframe')
   df = crawler.filter_dataset(df,country, state)
   filtered_df = crawler.periodic_dataset(df,start_date, interval=1)
-  print(filtered_df)
+  print(len(filtered_df))
 
   end = time.time()
   print('load and query flat dataset end time:{:.2f}'.format(end-start))
