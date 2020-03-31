@@ -21,7 +21,7 @@ class Crawler():
   def __init__(self):
     self.url = 'https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series'
     self.raw_url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/'
-    self.files = ['confirmed_global', 'deaths_global'] #, 'recovered_global']
+    self.files = ['confirmed_global', 'deaths_global', 'recovered_global']
     self.country_col = 'Country/Region'
     self.state_col = 'Province/State'
     self.cases_col = 'confirmed_global'
@@ -175,6 +175,7 @@ class Crawler():
           df=pd.read_csv(download_url)
 
           df = self.pivot_data(df, file)
+          df['date'] = pd.to_datetime(df['date'])
 
           # filter for province
           if type(output_nostate) == type(None):
@@ -243,6 +244,7 @@ if __name__ == '__main__':
   regions_df = crawler.query_regions()
 
   entire_dataset = crawler.query_entire()
+  entire_dataset['date'] = entire_dataset['date'].astype(str)
 
   print('\n---- saving entire data to json ----')
   output = entire_dataset.to_dict(orient='records')
