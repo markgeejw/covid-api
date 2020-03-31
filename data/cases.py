@@ -116,6 +116,7 @@ class Crawler():
 
   def periodic_dataset(self,df, start_date, interval=4):
     df['date'] = pd.to_datetime(df['date'])
+    df = df.sort_values(by = 'date')
     df = df[df['date'] >= start_date]
 
     # reverse df to take the latest dates for daily increase calculation
@@ -224,9 +225,9 @@ if __name__ == '__main__':
   pd.set_option('display.max_columns', 10)
 
   # single dataset
-  country = 'Australia'
+  country = 'Singapore'
   state = None
-  start_date = '2020-03-10'
+  start_date = '2020-03-07'
 
   start = time.time()
 
@@ -234,7 +235,7 @@ if __name__ == '__main__':
   df = crawler.query_single(country=country, state=state)
   filtered_df = crawler.periodic_dataset(df,start_date, interval=1)
   print('---- single data ----')
-  print(len(filtered_df))
+  print(filtered_df)
 
   end = time.time()
   print('query online dataset end time:{:.2f}'.format(end-start))
@@ -256,12 +257,12 @@ if __name__ == '__main__':
 
   start = time.time()
   print('\n---- query cases from json load ----')
-  country = 'Australia'
+  country = 'Singapore'
   state = None
   df = crawler.import_json('cases.json', import_type='dataframe')
   df = crawler.filter_dataset(df,country, state)
   filtered_df = crawler.periodic_dataset(df,start_date, interval=1)
-  print(len(filtered_df))
+  print(filtered_df)
 
   end = time.time()
   print('load and query flat dataset end time:{:.2f}'.format(end-start))
