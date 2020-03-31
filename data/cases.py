@@ -21,7 +21,7 @@ class Crawler():
   def __init__(self):
     self.url = 'https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series'
     self.raw_url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/'
-    self.files = ['confirmed_global', 'deaths_global', 'recovered_global']
+    self.files = ['confirmed_global', 'deaths_global'] #, 'testing_global']
     self.country_col = 'Country/Region'
     self.state_col = 'Province/State'
     self.cases_col = 'confirmed_global'
@@ -54,12 +54,11 @@ class Crawler():
     return file_list
 
   def get_file(self, raw_url,file_list, file):
-    df_list = []
     for fname in file_list:
       if file in fname:
         download_url= raw_url + fname
         df=pd.read_csv(download_url)
-    return df
+        return df
 
   def merge_data(self, df1, df2, has_state=False):
     if has_state:
@@ -69,25 +68,14 @@ class Crawler():
     return output
 
   def query_single(self, country, state=None):
-    soup = self.scrapePage(self.url)
-    file_list = self.query_files(soup)
 
-    output = None
-    for file in self.files:
-      df = self.get_file(self.raw_url,file_list, file)
-      df = self.pivot_data(df,file)
-      df = self.filter_dataset(df,country,state)
+    entire_dataset = self.query_entire()
+    us_dataset = self.query_US()
+    entire_dataset=self.combine_dataset([us_dataset, entire_dataset])
+    df = self.filter_dataset(entire_dataset,country,state)
+    df = df.sort_values(by = 'date')
 
-      # merge datasets together
-      if type(output) == type(None):
-        output = df
-      else:
-        if state:
-          output = self.merge_data(output, df, has_state=True)
-        else:
-          output = self.merge_data(output, df, has_state=False)
-
-    return output
+    return df
 
   def df_to_json(self,df):
     """
@@ -164,6 +152,7 @@ class Crawler():
 
 
   def query_entire(self):
+
     soup = self.scrapePage(self.url)
     file_list = self.query_files(soup)
 
@@ -218,6 +207,46 @@ class Crawler():
     except:
       logger.debug('issue loading file')
 
+  def query_US(self):
+
+    soup = self.scrapePage(self.url)
+    file_list = self.query_files(soup)
+
+    US_files = ['confirmed_US','deaths_US']
+    output = pd.DataFrame(columns=[self.state_col, self.country_col, 'date'])
+    for file in US_files:
+      for fname in file_list:
+        if file in fname:
+          download_url= self.raw_url + fname
+          df=pd.read_csv(download_url)
+
+          # data comes with state and city
+          df = df.groupby(['Province_State', 'Country_Region']).agg('sum')
+          df.reset_index(drop=False, inplace=True)
+          if file == 'confirmed_US':
+            col_name = 'confirmed_global'
+            df=pd.melt(df, id_vars=['Province_State', 'Country_Region'],
+                      var_name ='date',
+                      value_vars=df.iloc[:,11:],
+                      value_name =col_name)
+            df.columns = ['Province/State','Country/Region', 'date', col_name]
+          elif file == 'deaths_US':
+            col_name = 'deaths_global'
+            df=pd.melt(df, id_vars=['Province_State', 'Country_Region'],
+                      var_name ='date',
+                      value_vars=df.iloc[:,11:],
+                      value_name =col_name)
+            df.columns = ['Province/State','Country/Region', 'date', col_name]
+
+          df['date'] = pd.to_datetime(df['date'])
+          output = output.merge(df, on=[self.state_col, self.country_col, 'date'], how='outer')
+    return output
+
+  def combine_dataset(self, df_list):
+    output = pd.concat(df_list, ignore_index=True, sort=False)
+    output['date'] = pd.to_datetime(output['date'])
+    return output
+
 
 if __name__ == '__main__':
   # display options
@@ -243,9 +272,10 @@ if __name__ == '__main__':
   start = time.time()
   #full dataset
   crawler = Crawler()
-  regions_df = crawler.query_regions()
 
   entire_dataset = crawler.query_entire()
+  us_dataset = crawler.query_US()
+  entire_dataset=crawler.combine_dataset([us_dataset, entire_dataset])
   entire_dataset['date'] = entire_dataset['date'].astype(str)
 
   print('\n---- saving entire data to json ----')
