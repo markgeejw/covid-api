@@ -73,15 +73,16 @@ class Model(Resource):
             # print('Model created')
 
             # Getting state information and cases
-            state_info_template = collections.namedtuple('state_info', 'pop hbeds icu_beds vents weekly_hosps')
+            state_info_template = collections.namedtuple('state_info', 'pop hbeds icu_beds vents')
 
             if 'state_info' in request.args:
                 state_info_input = list(map(int, request.args['state_info'].split(",")))
-                if len(state_info_input) != 2:
-                    return "State information input has to be of size 2, containing: 'population','weekly_hospitalizations'", 400
-                pop, weekly_hosps = state_info_input
+                if len(state_info_input) != 1:
+                    return "State information input has to be of size 1, containing: 'population'", 400
+                pop = state_info_input[0]
+                pprint.pprint(state_info_template.__dict__)
                 state_info = state_info_template(pop=pop, hbeds=hbeds,
-                            icu_beds=icu_beds, vents=vents, weekly_hosps=weekly_hosps)
+                            icu_beds=icu_beds, vents=vents)
             else:
                 return "Need state info.", 400
 
@@ -146,7 +147,7 @@ class StateCases(Resource):
                 online_data = False
             else:
                 online_data = True
-            
+
             if online_data:
                 crawler = Crawler()
                 df = crawler.query_single(country=country, state=state)
