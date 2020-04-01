@@ -148,12 +148,14 @@ The json file includes the COVID-19 confirmed_global cases, deaths_global for al
 ]
 ```
 Query example using javascript
-Additionally [usage_example.html](https://github.com/markgeejw/covid-api/blob/master/usage_example.html) as been provided for completeness.
+Additionally [example_usage.html](https://github.com/markgeejw/covid-api/blob/master/example_usage.html) as been provided for completeness.
 
 ```
+fetch('https://raw.githubusercontent.com/markgeejw/covid-api/master/data/cases.json')
+.then(response => response.json())
 .then(data => {
   var country = "Singapore";
-  var state_province = null;
+  var state_province = null; // certain countries don't have province/state
 
   for (i = 0; i < data.length; ++i) {
     if (data[i]["Country/Region"] === country && data[i]["Province/State"] === state_province){
