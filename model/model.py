@@ -186,6 +186,12 @@ class CovidModel(object):
 		data['hbeds_required'] = hbeds_required.tolist()
 		data['icubeds_required'] = icubeds_required.tolist()
 		data['vents_required'] = vents_required.tolist()
+		data['hbed_normal'] 	= int(results['hbed_normal'])
+		data['hbed_surge'] 	 	= int(results['hbed_surge'])
+		data['icubed_normal'] 	= int(results['icubed_normal'])
+		data['icubed_surge'] 	= int(results['icubed_surge'])
+		data['vent_normal'] 	= int(results['vent_normal'])
+		data['vent_surge'] 		= int(results['vent_surge'])
 		data['dates'] = np.datetime_as_string(dates).tolist()
 
 		# update results

@@ -80,7 +80,6 @@ class Model(Resource):
                 if len(state_info_input) != 1:
                     return "State information input has to be of size 1, containing: 'population'", 400
                 pop = state_info_input[0]
-                pprint.pprint(state_info_template.__dict__)
                 state_info = state_info_template(pop=pop, hbeds=hbeds,
                             icu_beds=icu_beds, vents=vents)
             else:
