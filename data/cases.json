@@ -37440,6 +37440,526 @@
         "recovered_global": 0
     },
     {
+        "Province/State": "Australian Capital Territory",
+        "Country/Region": "Australia",
+        "date": "2020-04-03",
+        "confirmed_global": 91,
+        "deaths_global": 1,
+        "recovered_global": 18
+    },
+    {
+        "Province/State": "New South Wales",
+        "Country/Region": "Australia",
+        "date": "2020-04-03",
+        "confirmed_global": 2389,
+        "deaths_global": 12,
+        "recovered_global": 4
+    },
+    {
+        "Province/State": "Northern Territory",
+        "Country/Region": "Australia",
+        "date": "2020-04-03",
+        "confirmed_global": 22,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": "Queensland",
+        "Country/Region": "Australia",
+        "date": "2020-04-03",
+        "confirmed_global": 873,
+        "deaths_global": 4,
+        "recovered_global": 8
+    },
+    {
+        "Province/State": "South Australia",
+        "Country/Region": "Australia",
+        "date": "2020-04-03",
+        "confirmed_global": 396,
+        "deaths_global": 0,
+        "recovered_global": 46
+    },
+    {
+        "Province/State": "Tasmania",
+        "Country/Region": "Australia",
+        "date": "2020-04-03",
+        "confirmed_global": 74,
+        "deaths_global": 2,
+        "recovered_global": 5
+    },
+    {
+        "Province/State": "Victoria",
+        "Country/Region": "Australia",
+        "date": "2020-04-03",
+        "confirmed_global": 1085,
+        "deaths_global": 7,
+        "recovered_global": 476
+    },
+    {
+        "Province/State": "Western Australia",
+        "Country/Region": "Australia",
+        "date": "2020-04-03",
+        "confirmed_global": 400,
+        "deaths_global": 2,
+        "recovered_global": 92
+    },
+    {
+        "Province/State": "Anhui",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 990,
+        "deaths_global": 6,
+        "recovered_global": 984
+    },
+    {
+        "Province/State": "Beijing",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 584,
+        "deaths_global": 8,
+        "recovered_global": 434
+    },
+    {
+        "Province/State": "Chongqing",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 579,
+        "deaths_global": 6,
+        "recovered_global": 570
+    },
+    {
+        "Province/State": "Fujian",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 349,
+        "deaths_global": 1,
+        "recovered_global": 300
+    },
+    {
+        "Province/State": "Gansu",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 138,
+        "deaths_global": 2,
+        "recovered_global": 127
+    },
+    {
+        "Province/State": "Guangdong",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 1514,
+        "deaths_global": 8,
+        "recovered_global": 1368
+    },
+    {
+        "Province/State": "Guangxi",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 254,
+        "deaths_global": 2,
+        "recovered_global": 252
+    },
+    {
+        "Province/State": "Guizhou",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 146,
+        "deaths_global": 2,
+        "recovered_global": 144
+    },
+    {
+        "Province/State": "Hainan",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 168,
+        "deaths_global": 6,
+        "recovered_global": 162
+    },
+    {
+        "Province/State": "Hebei",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 326,
+        "deaths_global": 6,
+        "recovered_global": 310
+    },
+    {
+        "Province/State": "Heilongjiang",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 489,
+        "deaths_global": 13,
+        "recovered_global": 469
+    },
+    {
+        "Province/State": "Henan",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 1276,
+        "deaths_global": 22,
+        "recovered_global": 1251
+    },
+    {
+        "Province/State": "Hong Kong",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 845,
+        "deaths_global": 4,
+        "recovered_global": 173
+    },
+    {
+        "Province/State": "Hubei",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 67802,
+        "deaths_global": 3203,
+        "recovered_global": 63612
+    },
+    {
+        "Province/State": "Hunan",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 1019,
+        "deaths_global": 4,
+        "recovered_global": 1014
+    },
+    {
+        "Province/State": "Inner Mongolia",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 117,
+        "deaths_global": 1,
+        "recovered_global": 74
+    },
+    {
+        "Province/State": "Jiangsu",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 651,
+        "deaths_global": 0,
+        "recovered_global": 632
+    },
+    {
+        "Province/State": "Jiangxi",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 937,
+        "deaths_global": 1,
+        "recovered_global": 935
+    },
+    {
+        "Province/State": "Jilin",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 98,
+        "deaths_global": 1,
+        "recovered_global": 92
+    },
+    {
+        "Province/State": "Liaoning",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 141,
+        "deaths_global": 2,
+        "recovered_global": 124
+    },
+    {
+        "Province/State": "Macau",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 43,
+        "deaths_global": 0,
+        "recovered_global": 10
+    },
+    {
+        "Province/State": "Ningxia",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 75,
+        "deaths_global": 0,
+        "recovered_global": 75
+    },
+    {
+        "Province/State": "Qinghai",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 18,
+        "deaths_global": 0,
+        "recovered_global": 18
+    },
+    {
+        "Province/State": "Shaanxi",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 255,
+        "deaths_global": 3,
+        "recovered_global": 244
+    },
+    {
+        "Province/State": "Shandong",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 778,
+        "deaths_global": 7,
+        "recovered_global": 754
+    },
+    {
+        "Province/State": "Shanghai",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 526,
+        "deaths_global": 6,
+        "recovered_global": 348
+    },
+    {
+        "Province/State": "Shanxi",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 137,
+        "deaths_global": 0,
+        "recovered_global": 133
+    },
+    {
+        "Province/State": "Sichuan",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 555,
+        "deaths_global": 3,
+        "recovered_global": 537
+    },
+    {
+        "Province/State": "Tianjin",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 180,
+        "deaths_global": 3,
+        "recovered_global": 140
+    },
+    {
+        "Province/State": "Tibet",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 1,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": "Xinjiang",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 76,
+        "deaths_global": 3,
+        "recovered_global": 73
+    },
+    {
+        "Province/State": "Yunnan",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 184,
+        "deaths_global": 2,
+        "recovered_global": 172
+    },
+    {
+        "Province/State": "Zhejiang",
+        "Country/Region": "China",
+        "date": "2020-04-03",
+        "confirmed_global": 1260,
+        "deaths_global": 1,
+        "recovered_global": 1228
+    },
+    {
+        "Province/State": "Faroe Islands",
+        "Country/Region": "Denmark",
+        "date": "2020-04-03",
+        "confirmed_global": 179,
+        "deaths_global": 0,
+        "recovered_global": 91
+    },
+    {
+        "Province/State": "Greenland",
+        "Country/Region": "Denmark",
+        "date": "2020-04-03",
+        "confirmed_global": 10,
+        "deaths_global": 0,
+        "recovered_global": 3
+    },
+    {
+        "Province/State": "French Guiana",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 57,
+        "deaths_global": 0,
+        "recovered_global": 22
+    },
+    {
+        "Province/State": "French Polynesia",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 39,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": "Guadeloupe",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 130,
+        "deaths_global": 7,
+        "recovered_global": 24
+    },
+    {
+        "Province/State": "Mayotte",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 128,
+        "deaths_global": 2,
+        "recovered_global": 10
+    },
+    {
+        "Province/State": "New Caledonia",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 18,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": "Reunion",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 321,
+        "deaths_global": 0,
+        "recovered_global": 40
+    },
+    {
+        "Province/State": "Saint Barthelemy",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 6,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": "St Martin",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 22,
+        "deaths_global": 1,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": "Martinique",
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 143,
+        "deaths_global": 3,
+        "recovered_global": 27
+    },
+    {
+        "Province/State": "Aruba",
+        "Country/Region": "Netherlands",
+        "date": "2020-04-03",
+        "confirmed_global": 62,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": "Curacao",
+        "Country/Region": "Netherlands",
+        "date": "2020-04-03",
+        "confirmed_global": 11,
+        "deaths_global": 1,
+        "recovered_global": 3
+    },
+    {
+        "Province/State": "Sint Maarten",
+        "Country/Region": "Netherlands",
+        "date": "2020-04-03",
+        "confirmed_global": 23,
+        "deaths_global": 2,
+        "recovered_global": 6
+    },
+    {
+        "Province/State": "Bermuda",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 35,
+        "deaths_global": 0,
+        "recovered_global": 14
+    },
+    {
+        "Province/State": "Cayman Islands",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 28,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": "Channel Islands",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 232,
+        "deaths_global": 4,
+        "recovered_global": 13
+    },
+    {
+        "Province/State": "Gibraltar",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 95,
+        "deaths_global": 0,
+        "recovered_global": 46
+    },
+    {
+        "Province/State": "Isle of Man",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 114,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": "Montserrat",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 6,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": "Anguilla",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 3,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": "British Virgin Islands",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 3,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": "Turks and Caicos Islands",
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 5,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": "Bonaire, Sint Eustatius and Saba",
+        "Country/Region": "Netherlands",
+        "date": "2020-04-03",
+        "confirmed_global": 2,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
         "Province/State": null,
         "Country/Region": "Afghanistan",
         "date": "2020-01-22",
@@ -139963,6 +140483,1430 @@
         "Province/State": null,
         "Country/Region": "Malawi",
         "date": "2020-04-02",
+        "confirmed_global": 3,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Afghanistan",
+        "date": "2020-04-03",
+        "confirmed_global": 281,
+        "deaths_global": 6,
+        "recovered_global": 10
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Albania",
+        "date": "2020-04-03",
+        "confirmed_global": 304,
+        "deaths_global": 17,
+        "recovered_global": 89
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Algeria",
+        "date": "2020-04-03",
+        "confirmed_global": 1171,
+        "deaths_global": 105,
+        "recovered_global": 62
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Andorra",
+        "date": "2020-04-03",
+        "confirmed_global": 439,
+        "deaths_global": 16,
+        "recovered_global": 16
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Angola",
+        "date": "2020-04-03",
+        "confirmed_global": 8,
+        "deaths_global": 2,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Antigua and Barbuda",
+        "date": "2020-04-03",
+        "confirmed_global": 15,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Argentina",
+        "date": "2020-04-03",
+        "confirmed_global": 1265,
+        "deaths_global": 39,
+        "recovered_global": 266
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Armenia",
+        "date": "2020-04-03",
+        "confirmed_global": 736,
+        "deaths_global": 7,
+        "recovered_global": 43
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Austria",
+        "date": "2020-04-03",
+        "confirmed_global": 11524,
+        "deaths_global": 168,
+        "recovered_global": 2022
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Azerbaijan",
+        "date": "2020-04-03",
+        "confirmed_global": 443,
+        "deaths_global": 5,
+        "recovered_global": 32
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Bahamas",
+        "date": "2020-04-03",
+        "confirmed_global": 24,
+        "deaths_global": 1,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Bahrain",
+        "date": "2020-04-03",
+        "confirmed_global": 672,
+        "deaths_global": 4,
+        "recovered_global": 382
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Bangladesh",
+        "date": "2020-04-03",
+        "confirmed_global": 61,
+        "deaths_global": 6,
+        "recovered_global": 26
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Barbados",
+        "date": "2020-04-03",
+        "confirmed_global": 51,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Belarus",
+        "date": "2020-04-03",
+        "confirmed_global": 351,
+        "deaths_global": 4,
+        "recovered_global": 53
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Belgium",
+        "date": "2020-04-03",
+        "confirmed_global": 16770,
+        "deaths_global": 1143,
+        "recovered_global": 2872
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Benin",
+        "date": "2020-04-03",
+        "confirmed_global": 16,
+        "deaths_global": 0,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Bhutan",
+        "date": "2020-04-03",
+        "confirmed_global": 5,
+        "deaths_global": 0,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Bolivia",
+        "date": "2020-04-03",
+        "confirmed_global": 132,
+        "deaths_global": 9,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Bosnia and Herzegovina",
+        "date": "2020-04-03",
+        "confirmed_global": 579,
+        "deaths_global": 17,
+        "recovered_global": 27
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Brazil",
+        "date": "2020-04-03",
+        "confirmed_global": 9056,
+        "deaths_global": 359,
+        "recovered_global": 127
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Brunei",
+        "date": "2020-04-03",
+        "confirmed_global": 134,
+        "deaths_global": 1,
+        "recovered_global": 65
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Bulgaria",
+        "date": "2020-04-03",
+        "confirmed_global": 485,
+        "deaths_global": 14,
+        "recovered_global": 30
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Burkina Faso",
+        "date": "2020-04-03",
+        "confirmed_global": 302,
+        "deaths_global": 16,
+        "recovered_global": 50
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Cabo Verde",
+        "date": "2020-04-03",
+        "confirmed_global": 6,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Cambodia",
+        "date": "2020-04-03",
+        "confirmed_global": 114,
+        "deaths_global": 0,
+        "recovered_global": 35
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Cameroon",
+        "date": "2020-04-03",
+        "confirmed_global": 509,
+        "deaths_global": 8,
+        "recovered_global": 17
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Central African Republic",
+        "date": "2020-04-03",
+        "confirmed_global": 8,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Chad",
+        "date": "2020-04-03",
+        "confirmed_global": 8,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Chile",
+        "date": "2020-04-03",
+        "confirmed_global": 3737,
+        "deaths_global": 22,
+        "recovered_global": 427
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Colombia",
+        "date": "2020-04-03",
+        "confirmed_global": 1267,
+        "deaths_global": 25,
+        "recovered_global": 55
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Congo (Brazzaville)",
+        "date": "2020-04-03",
+        "confirmed_global": 22,
+        "deaths_global": 2,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Congo (Kinshasa)",
+        "date": "2020-04-03",
+        "confirmed_global": 134,
+        "deaths_global": 13,
+        "recovered_global": 3
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Costa Rica",
+        "date": "2020-04-03",
+        "confirmed_global": 416,
+        "deaths_global": 2,
+        "recovered_global": 11
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Cote d'Ivoire",
+        "date": "2020-04-03",
+        "confirmed_global": 218,
+        "deaths_global": 1,
+        "recovered_global": 19
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Croatia",
+        "date": "2020-04-03",
+        "confirmed_global": 1079,
+        "deaths_global": 8,
+        "recovered_global": 92
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Diamond Princess",
+        "date": "2020-04-03",
+        "confirmed_global": 712,
+        "deaths_global": 11,
+        "recovered_global": 619
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Cuba",
+        "date": "2020-04-03",
+        "confirmed_global": 269,
+        "deaths_global": 6,
+        "recovered_global": 15
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Cyprus",
+        "date": "2020-04-03",
+        "confirmed_global": 396,
+        "deaths_global": 11,
+        "recovered_global": 28
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Czechia",
+        "date": "2020-04-03",
+        "confirmed_global": 4091,
+        "deaths_global": 53,
+        "recovered_global": 72
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Denmark",
+        "date": "2020-04-03",
+        "confirmed_global": 3757,
+        "deaths_global": 139,
+        "recovered_global": 1193
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Djibouti",
+        "date": "2020-04-03",
+        "confirmed_global": 49,
+        "deaths_global": 0,
+        "recovered_global": 8
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Dominican Republic",
+        "date": "2020-04-03",
+        "confirmed_global": 1488,
+        "deaths_global": 68,
+        "recovered_global": 16
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Ecuador",
+        "date": "2020-04-03",
+        "confirmed_global": 3368,
+        "deaths_global": 145,
+        "recovered_global": 65
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Egypt",
+        "date": "2020-04-03",
+        "confirmed_global": 985,
+        "deaths_global": 66,
+        "recovered_global": 216
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "El Salvador",
+        "date": "2020-04-03",
+        "confirmed_global": 46,
+        "deaths_global": 2,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Equatorial Guinea",
+        "date": "2020-04-03",
+        "confirmed_global": 16,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Eritrea",
+        "date": "2020-04-03",
+        "confirmed_global": 22,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Estonia",
+        "date": "2020-04-03",
+        "confirmed_global": 961,
+        "deaths_global": 12,
+        "recovered_global": 48
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Eswatini",
+        "date": "2020-04-03",
+        "confirmed_global": 9,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Ethiopia",
+        "date": "2020-04-03",
+        "confirmed_global": 35,
+        "deaths_global": 0,
+        "recovered_global": 3
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Fiji",
+        "date": "2020-04-03",
+        "confirmed_global": 7,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Finland",
+        "date": "2020-04-03",
+        "confirmed_global": 1615,
+        "deaths_global": 20,
+        "recovered_global": 300
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "France",
+        "date": "2020-04-03",
+        "confirmed_global": 64338,
+        "deaths_global": 6507,
+        "recovered_global": 14008
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Gabon",
+        "date": "2020-04-03",
+        "confirmed_global": 21,
+        "deaths_global": 1,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Gambia",
+        "date": "2020-04-03",
+        "confirmed_global": 4,
+        "deaths_global": 1,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Georgia",
+        "date": "2020-04-03",
+        "confirmed_global": 155,
+        "deaths_global": 0,
+        "recovered_global": 28
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Germany",
+        "date": "2020-04-03",
+        "confirmed_global": 91159,
+        "deaths_global": 1275,
+        "recovered_global": 24575
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Ghana",
+        "date": "2020-04-03",
+        "confirmed_global": 205,
+        "deaths_global": 5,
+        "recovered_global": 31
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Greece",
+        "date": "2020-04-03",
+        "confirmed_global": 1613,
+        "deaths_global": 63,
+        "recovered_global": 78
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Guatemala",
+        "date": "2020-04-03",
+        "confirmed_global": 50,
+        "deaths_global": 1,
+        "recovered_global": 12
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Guinea",
+        "date": "2020-04-03",
+        "confirmed_global": 73,
+        "deaths_global": 0,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Guyana",
+        "date": "2020-04-03",
+        "confirmed_global": 23,
+        "deaths_global": 4,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Haiti",
+        "date": "2020-04-03",
+        "confirmed_global": 18,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Holy See",
+        "date": "2020-04-03",
+        "confirmed_global": 7,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Honduras",
+        "date": "2020-04-03",
+        "confirmed_global": 222,
+        "deaths_global": 15,
+        "recovered_global": 3
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Hungary",
+        "date": "2020-04-03",
+        "confirmed_global": 623,
+        "deaths_global": 26,
+        "recovered_global": 43
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Iceland",
+        "date": "2020-04-03",
+        "confirmed_global": 1364,
+        "deaths_global": 4,
+        "recovered_global": 309
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "India",
+        "date": "2020-04-03",
+        "confirmed_global": 2567,
+        "deaths_global": 72,
+        "recovered_global": 192
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Indonesia",
+        "date": "2020-04-03",
+        "confirmed_global": 1986,
+        "deaths_global": 181,
+        "recovered_global": 134
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Iran",
+        "date": "2020-04-03",
+        "confirmed_global": 53183,
+        "deaths_global": 3294,
+        "recovered_global": 17935
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Iraq",
+        "date": "2020-04-03",
+        "confirmed_global": 820,
+        "deaths_global": 54,
+        "recovered_global": 226
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Ireland",
+        "date": "2020-04-03",
+        "confirmed_global": 4273,
+        "deaths_global": 120,
+        "recovered_global": 5
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Israel",
+        "date": "2020-04-03",
+        "confirmed_global": 7428,
+        "deaths_global": 40,
+        "recovered_global": 403
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Italy",
+        "date": "2020-04-03",
+        "confirmed_global": 119827,
+        "deaths_global": 14681,
+        "recovered_global": 19758
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Jamaica",
+        "date": "2020-04-03",
+        "confirmed_global": 47,
+        "deaths_global": 3,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Japan",
+        "date": "2020-04-03",
+        "confirmed_global": 2617,
+        "deaths_global": 63,
+        "recovered_global": 514
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Jordan",
+        "date": "2020-04-03",
+        "confirmed_global": 310,
+        "deaths_global": 5,
+        "recovered_global": 58
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Kazakhstan",
+        "date": "2020-04-03",
+        "confirmed_global": 464,
+        "deaths_global": 6,
+        "recovered_global": 29
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Kenya",
+        "date": "2020-04-03",
+        "confirmed_global": 122,
+        "deaths_global": 4,
+        "recovered_global": 4
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Korea, South",
+        "date": "2020-04-03",
+        "confirmed_global": 10062,
+        "deaths_global": 174,
+        "recovered_global": 6021
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Kuwait",
+        "date": "2020-04-03",
+        "confirmed_global": 417,
+        "deaths_global": 0,
+        "recovered_global": 82
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Kyrgyzstan",
+        "date": "2020-04-03",
+        "confirmed_global": 130,
+        "deaths_global": 1,
+        "recovered_global": 6
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Latvia",
+        "date": "2020-04-03",
+        "confirmed_global": 493,
+        "deaths_global": 1,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Lebanon",
+        "date": "2020-04-03",
+        "confirmed_global": 508,
+        "deaths_global": 17,
+        "recovered_global": 50
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Liberia",
+        "date": "2020-04-03",
+        "confirmed_global": 7,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Liechtenstein",
+        "date": "2020-04-03",
+        "confirmed_global": 75,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Lithuania",
+        "date": "2020-04-03",
+        "confirmed_global": 696,
+        "deaths_global": 9,
+        "recovered_global": 7
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Luxembourg",
+        "date": "2020-04-03",
+        "confirmed_global": 2612,
+        "deaths_global": 31,
+        "recovered_global": 500
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Madagascar",
+        "date": "2020-04-03",
+        "confirmed_global": 70,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Malaysia",
+        "date": "2020-04-03",
+        "confirmed_global": 3333,
+        "deaths_global": 53,
+        "recovered_global": 827
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Maldives",
+        "date": "2020-04-03",
+        "confirmed_global": 19,
+        "deaths_global": 0,
+        "recovered_global": 13
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Malta",
+        "date": "2020-04-03",
+        "confirmed_global": 202,
+        "deaths_global": 0,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Mauritania",
+        "date": "2020-04-03",
+        "confirmed_global": 6,
+        "deaths_global": 1,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Mauritius",
+        "date": "2020-04-03",
+        "confirmed_global": 186,
+        "deaths_global": 7,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Mexico",
+        "date": "2020-04-03",
+        "confirmed_global": 1510,
+        "deaths_global": 50,
+        "recovered_global": 633
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Moldova",
+        "date": "2020-04-03",
+        "confirmed_global": 591,
+        "deaths_global": 8,
+        "recovered_global": 26
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Monaco",
+        "date": "2020-04-03",
+        "confirmed_global": 64,
+        "deaths_global": 1,
+        "recovered_global": 3
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Mongolia",
+        "date": "2020-04-03",
+        "confirmed_global": 14,
+        "deaths_global": 0,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Montenegro",
+        "date": "2020-04-03",
+        "confirmed_global": 174,
+        "deaths_global": 2,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Morocco",
+        "date": "2020-04-03",
+        "confirmed_global": 791,
+        "deaths_global": 48,
+        "recovered_global": 57
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Namibia",
+        "date": "2020-04-03",
+        "confirmed_global": 14,
+        "deaths_global": 0,
+        "recovered_global": 3
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Nepal",
+        "date": "2020-04-03",
+        "confirmed_global": 6,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Netherlands",
+        "date": "2020-04-03",
+        "confirmed_global": 15723,
+        "deaths_global": 1487,
+        "recovered_global": 250
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "New Zealand",
+        "date": "2020-04-03",
+        "confirmed_global": 868,
+        "deaths_global": 1,
+        "recovered_global": 103
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Nicaragua",
+        "date": "2020-04-03",
+        "confirmed_global": 5,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Niger",
+        "date": "2020-04-03",
+        "confirmed_global": 120,
+        "deaths_global": 5,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Nigeria",
+        "date": "2020-04-03",
+        "confirmed_global": 210,
+        "deaths_global": 4,
+        "recovered_global": 25
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "North Macedonia",
+        "date": "2020-04-03",
+        "confirmed_global": 430,
+        "deaths_global": 12,
+        "recovered_global": 20
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Norway",
+        "date": "2020-04-03",
+        "confirmed_global": 5370,
+        "deaths_global": 59,
+        "recovered_global": 32
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Oman",
+        "date": "2020-04-03",
+        "confirmed_global": 252,
+        "deaths_global": 1,
+        "recovered_global": 57
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Pakistan",
+        "date": "2020-04-03",
+        "confirmed_global": 2686,
+        "deaths_global": 40,
+        "recovered_global": 126
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Panama",
+        "date": "2020-04-03",
+        "confirmed_global": 1475,
+        "deaths_global": 37,
+        "recovered_global": 10
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Papua New Guinea",
+        "date": "2020-04-03",
+        "confirmed_global": 1,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Paraguay",
+        "date": "2020-04-03",
+        "confirmed_global": 92,
+        "deaths_global": 3,
+        "recovered_global": 6
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Peru",
+        "date": "2020-04-03",
+        "confirmed_global": 1595,
+        "deaths_global": 61,
+        "recovered_global": 537
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Philippines",
+        "date": "2020-04-03",
+        "confirmed_global": 3018,
+        "deaths_global": 136,
+        "recovered_global": 52
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Poland",
+        "date": "2020-04-03",
+        "confirmed_global": 3383,
+        "deaths_global": 71,
+        "recovered_global": 56
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Portugal",
+        "date": "2020-04-03",
+        "confirmed_global": 9886,
+        "deaths_global": 246,
+        "recovered_global": 68
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Qatar",
+        "date": "2020-04-03",
+        "confirmed_global": 1075,
+        "deaths_global": 3,
+        "recovered_global": 93
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Romania",
+        "date": "2020-04-03",
+        "confirmed_global": 3183,
+        "deaths_global": 133,
+        "recovered_global": 283
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Russia",
+        "date": "2020-04-03",
+        "confirmed_global": 4149,
+        "deaths_global": 34,
+        "recovered_global": 281
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Rwanda",
+        "date": "2020-04-03",
+        "confirmed_global": 89,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Saint Lucia",
+        "date": "2020-04-03",
+        "confirmed_global": 13,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Saint Vincent and the Grenadines",
+        "date": "2020-04-03",
+        "confirmed_global": 3,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "San Marino",
+        "date": "2020-04-03",
+        "confirmed_global": 245,
+        "deaths_global": 30,
+        "recovered_global": 21
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Saudi Arabia",
+        "date": "2020-04-03",
+        "confirmed_global": 2039,
+        "deaths_global": 25,
+        "recovered_global": 351
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Senegal",
+        "date": "2020-04-03",
+        "confirmed_global": 207,
+        "deaths_global": 1,
+        "recovered_global": 66
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Serbia",
+        "date": "2020-04-03",
+        "confirmed_global": 1476,
+        "deaths_global": 39,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Seychelles",
+        "date": "2020-04-03",
+        "confirmed_global": 10,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Singapore",
+        "date": "2020-04-03",
+        "confirmed_global": 1114,
+        "deaths_global": 5,
+        "recovered_global": 282
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Slovakia",
+        "date": "2020-04-03",
+        "confirmed_global": 450,
+        "deaths_global": 1,
+        "recovered_global": 10
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Slovenia",
+        "date": "2020-04-03",
+        "confirmed_global": 934,
+        "deaths_global": 20,
+        "recovered_global": 70
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Somalia",
+        "date": "2020-04-03",
+        "confirmed_global": 7,
+        "deaths_global": 0,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "South Africa",
+        "date": "2020-04-03",
+        "confirmed_global": 1505,
+        "deaths_global": 9,
+        "recovered_global": 95
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Spain",
+        "date": "2020-04-03",
+        "confirmed_global": 119199,
+        "deaths_global": 11198,
+        "recovered_global": 30513
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Sri Lanka",
+        "date": "2020-04-03",
+        "confirmed_global": 159,
+        "deaths_global": 4,
+        "recovered_global": 24
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Sudan",
+        "date": "2020-04-03",
+        "confirmed_global": 10,
+        "deaths_global": 2,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Suriname",
+        "date": "2020-04-03",
+        "confirmed_global": 10,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Sweden",
+        "date": "2020-04-03",
+        "confirmed_global": 6131,
+        "deaths_global": 358,
+        "recovered_global": 205
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Switzerland",
+        "date": "2020-04-03",
+        "confirmed_global": 19606,
+        "deaths_global": 591,
+        "recovered_global": 4846
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Taiwan*",
+        "date": "2020-04-03",
+        "confirmed_global": 348,
+        "deaths_global": 5,
+        "recovered_global": 50
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Tanzania",
+        "date": "2020-04-03",
+        "confirmed_global": 20,
+        "deaths_global": 1,
+        "recovered_global": 3
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Thailand",
+        "date": "2020-04-03",
+        "confirmed_global": 1978,
+        "deaths_global": 19,
+        "recovered_global": 612
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Togo",
+        "date": "2020-04-03",
+        "confirmed_global": 40,
+        "deaths_global": 3,
+        "recovered_global": 17
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Trinidad and Tobago",
+        "date": "2020-04-03",
+        "confirmed_global": 98,
+        "deaths_global": 6,
+        "recovered_global": 1
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Tunisia",
+        "date": "2020-04-03",
+        "confirmed_global": 495,
+        "deaths_global": 18,
+        "recovered_global": 5
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Turkey",
+        "date": "2020-04-03",
+        "confirmed_global": 20921,
+        "deaths_global": 425,
+        "recovered_global": 484
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Uganda",
+        "date": "2020-04-03",
+        "confirmed_global": 48,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Ukraine",
+        "date": "2020-04-03",
+        "confirmed_global": 1072,
+        "deaths_global": 27,
+        "recovered_global": 22
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "United Arab Emirates",
+        "date": "2020-04-03",
+        "confirmed_global": 1264,
+        "deaths_global": 9,
+        "recovered_global": 108
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "United Kingdom",
+        "date": "2020-04-03",
+        "confirmed_global": 38168,
+        "deaths_global": 3605,
+        "recovered_global": 135
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Uruguay",
+        "date": "2020-04-03",
+        "confirmed_global": 369,
+        "deaths_global": 4,
+        "recovered_global": 68
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "US",
+        "date": "2020-04-03",
+        "confirmed_global": 275586,
+        "deaths_global": 7087,
+        "recovered_global": 9707
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Uzbekistan",
+        "date": "2020-04-03",
+        "confirmed_global": 227,
+        "deaths_global": 2,
+        "recovered_global": 25
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Venezuela",
+        "date": "2020-04-03",
+        "confirmed_global": 153,
+        "deaths_global": 7,
+        "recovered_global": 52
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Vietnam",
+        "date": "2020-04-03",
+        "confirmed_global": 237,
+        "deaths_global": 0,
+        "recovered_global": 85
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Zambia",
+        "date": "2020-04-03",
+        "confirmed_global": 39,
+        "deaths_global": 1,
+        "recovered_global": 2
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Zimbabwe",
+        "date": "2020-04-03",
+        "confirmed_global": 9,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Dominica",
+        "date": "2020-04-03",
+        "confirmed_global": 12,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Grenada",
+        "date": "2020-04-03",
+        "confirmed_global": 12,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Mozambique",
+        "date": "2020-04-03",
+        "confirmed_global": 10,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Syria",
+        "date": "2020-04-03",
+        "confirmed_global": 16,
+        "deaths_global": 2,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Timor-Leste",
+        "date": "2020-04-03",
+        "confirmed_global": 1,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Belize",
+        "date": "2020-04-03",
+        "confirmed_global": 4,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Laos",
+        "date": "2020-04-03",
+        "confirmed_global": 10,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Libya",
+        "date": "2020-04-03",
+        "confirmed_global": 11,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "West Bank and Gaza",
+        "date": "2020-04-03",
+        "confirmed_global": 194,
+        "deaths_global": 1,
+        "recovered_global": 21
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Guinea-Bissau",
+        "date": "2020-04-03",
+        "confirmed_global": 15,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Mali",
+        "date": "2020-04-03",
+        "confirmed_global": 39,
+        "deaths_global": 3,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Saint Kitts and Nevis",
+        "date": "2020-04-03",
+        "confirmed_global": 9,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Kosovo",
+        "date": "2020-04-03",
+        "confirmed_global": 126,
+        "deaths_global": 1,
+        "recovered_global": 10
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Burma",
+        "date": "2020-04-03",
+        "confirmed_global": 20,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "MS Zaandam",
+        "date": "2020-04-03",
+        "confirmed_global": 9,
+        "deaths_global": 2,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Botswana",
+        "date": "2020-04-03",
+        "confirmed_global": 4,
+        "deaths_global": 1,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Burundi",
+        "date": "2020-04-03",
+        "confirmed_global": 3,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Sierra Leone",
+        "date": "2020-04-03",
+        "confirmed_global": 2,
+        "deaths_global": 0,
+        "recovered_global": 0
+    },
+    {
+        "Province/State": null,
+        "Country/Region": "Malawi",
+        "date": "2020-04-03",
         "confirmed_global": 3,
         "deaths_global": 0,
         "recovered_global": 0
