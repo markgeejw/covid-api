@@ -127,12 +127,12 @@ class CovidModel(object):
 		newly_recovered = np.zeros(self.epochs)
 
 		# init all arrays
-		newly_hospitalised[0] = resource_params['hosp_admit'] * newly_infected[3]
+		newly_hospitalised[0] = int(resource_params['hosp_admit'] * newly_infected[3])
 		hbeds_required[0] = newly_hospitalised[0]
-		newly_icu[0] = resource_params['icu_admit'] * newly_infected[3]
+		newly_icu[0] = int(resource_params['icu_admit'] * newly_infected[3])
 		icubeds_required[0] = newly_icu[0]
 		true_icubeds[0] = min(results['icubed_surge'], icubeds_required[0])
-		newly_vent[0] = resource_params['vent_rates'] * newly_infected[3]
+		newly_vent[0] = int(resource_params['vent_rates'] * newly_infected[3])
 		vents_required[0] = newly_vent[0]
 		true_vents[0] = min(results['vent_surge'], vents_required[0])
 		newly_passed[0], overload_passed[0] = self.mortality(0, 0, 0, newly_infected[0], results, model_params, resource_params)
