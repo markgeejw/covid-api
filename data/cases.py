@@ -45,7 +45,7 @@ class Crawler():
 
   def query_files(self,soup):
     file_list = []
-    for link in soup.find_all('tr', attrs={'class':'js-navigation-item'}):
+    for link in soup.find_all('div', attrs={'class':'js-navigation-item'}):
       for row in link.find_all("a", attrs={'class':'js-navigation-open'}):
         if row.get("href").endswith('.csv'):
           fname = row.get("href").split('/')[-1]
