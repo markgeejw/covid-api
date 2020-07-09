@@ -143,7 +143,8 @@ class StateCases(Resource):
             else:
                 interval = 1
             if 'app' in request.args:
-                online_data = False
+                # online_data = False
+                online_data = True
             else:
                 online_data = True
 
