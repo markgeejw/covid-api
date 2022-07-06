@@ -10,7 +10,7 @@ flask-RESTful==0.3.8
 idna==2.9
 itsdangerous==1.1.0
 Jinja2==2.11.1
-lxml==4.5.0
+lxml==4.9.1
 MarkupSafe==1.1.1
 numpy==1.18.2
 pandas==1.0.3
